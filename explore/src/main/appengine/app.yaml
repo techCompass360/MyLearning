@@ -3,3 +3,8 @@ env: flex
 handlers:
   - url: /.*
     script: this field is required, but ignored
+    
+resources:
+  cpu: 1
+  memory_gb: 3
+ 
