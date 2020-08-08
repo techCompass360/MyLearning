@@ -7,8 +7,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 //https://codelabs.developers.google.com/codelabs/cloud-springboot-kubernetes/#1
 
 
-
-
 @SpringBootApplication
 @EntityScan(basePackages = {"com.test.db"} )
 @EnableJpaRepositories(basePackages = {"com.test.db"})
