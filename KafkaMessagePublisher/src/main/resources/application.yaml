@@ -1,0 +1,16 @@
+server:  
+ port: 9000 
+spring:
+       
+  kafka:
+    bootstrap-servers: 35.241.192.229
+    consumer:
+      bootstrap-servers: 35.241.192.229 :9092
+      group-id: group-id
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: 35.241.192.229:9092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
