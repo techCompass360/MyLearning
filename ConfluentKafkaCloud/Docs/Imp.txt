@@ -1,0 +1,7 @@
+
+https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/java-springboot.html
+https://docs.confluent.io/cloud/current/client-apps/config-client.html
+
+
+export CONFIG_FILE=~/.confluent/java.config
+ccloud::validate_ccloud_config $CONFIG_FILE || exit

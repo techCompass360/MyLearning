@@ -1,0 +1,6 @@
+com\example\demo\DemoApplication.class
+com\example\demo\MyMessage.class
+com\example\demo\MyController.class
+com\example\demo\User.class
+com\example\demo\Producer1.class
+com\example\demo\Consumer.class
